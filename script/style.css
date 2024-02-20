@@ -252,6 +252,11 @@ li {
 }
 .box-right-button {
 }
+
+.pown {
+  position: relative;
+  top: 90px;
+}
 .btn {
   border: 0.44px solid white;
   border-radius: 13px;
