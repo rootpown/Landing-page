@@ -7,6 +7,10 @@ li {
   line-height: none;
   list-style: none;
 }
+a {
+  text-decoration: none;
+  color: black;
+}
 * {
   padding: 0;
   margin: 0;
@@ -153,14 +157,14 @@ li {
 }
 
 .footer {
-  font-size: 13px;
-  letter-spacing: 1rem;
+  font-size: 33px;
+  letter-spacing: 0.5rem;
   position: fixed;
   bottom: 0;
 
   border: 1px solid black;
   padding: 0.3rem;
-  opacity: 0.3;
+  opacity: 0.7;
 }
 .footer:hover {
   transition: all 1s;
@@ -208,10 +212,42 @@ li {
   -moz-transition: all 1s;
   -ms-transition: all 1s;
   -o-transition: all 1s;
+  color: rgba(51, 38, 38, 0.178);
+  max-width: 800px;
 }
-.pown {
-  position: relative;
-  top: 100px;
+
+.pages-puppy {
+  margin-top: 8rem;
+  background: rgba(59, 131, 246, 0.568);
+  height: 177px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
-.footer {
+.box-border {
+  display: flex;
+  align-items: center;
+  gap: 3rem;
+}
+.box-left-title {
+  letter-spacing: 0.3rem;
+  font-size: 33px;
+}
+.box-right-button {
+}
+.btn {
+  border: 0.44px solid white;
+  border-radius: 13px;
+
+  font-size: 24px;
+  padding: 1rem 4rem;
+  background-color: rgb(144, 184, 250);
+  -webkit-border-radius: 13px;
+  -moz-border-radius: 13px;
+  -ms-border-radius: 13px;
+  -o-border-radius: 13px;
+}
+.btn a {
+  color: white;
+  font-size: 30px;
 }
