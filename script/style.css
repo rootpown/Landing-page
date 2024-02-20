@@ -22,7 +22,7 @@ li {
     rgba(34, 110, 146, 1) 100%
   );
   color: white;
-
+  height: 490px;
   min-width: 800px;
   width: 100%;
 }
@@ -87,7 +87,8 @@ li {
 }
 .list-img img {
   transition: 1s;
-  height: 260px;
+  height: 340px;
+  width: 330px;
   border-radius: 11%;
   -webkit-transition: 1s;
   -moz-transition: 1s;
@@ -152,13 +153,13 @@ li {
 }
 
 .footer {
-  font-size: 20px;
+  font-size: 13px;
   letter-spacing: 1rem;
   position: fixed;
   bottom: 0;
 
   border: 1px solid black;
-  padding: 1rem;
+  padding: 0.3rem;
   opacity: 0.3;
 }
 .footer:hover {
@@ -169,4 +170,48 @@ li {
   -moz-transition: all 1s;
   -ms-transition: all 1s;
   -o-transition: all 1s;
+}
+.pages-inform {
+  min-width: 800px;
+  width: 100%;
+  background-color: rgb(229, 231, 235);
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+.pages-inform-box-row {
+  max-width: 100%;
+  width: 100%;
+  height: 300px;
+}
+.pages-box {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 16rem;
+}
+.pages-box p {
+  transition: all 1s;
+  font-size: 17px;
+  letter-spacing: 0.3rem;
+  max-width: 500px;
+  max-height: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.pages-box p:hover {
+  transition: all 1s;
+  font-size: 23px;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+.pown {
+  position: relative;
+  top: 100px;
+}
+.footer {
 }
