@@ -161,10 +161,21 @@ li {
   letter-spacing: 0.5rem;
   position: fixed;
   bottom: 0;
-
+  border-radius: 0.3rem;
   border: 1px solid black;
+  background: rgb(255, 2, 74);
+  background: linear-gradient(
+    180deg,
+    rgba(255, 2, 74, 1) 0%,
+    rgba(34, 110, 146, 1) 99%,
+    rgba(34, 110, 146, 1) 100%
+  );
   padding: 0.3rem;
   opacity: 0.7;
+  -webkit-border-radius: 0.3rem;
+  -moz-border-radius: 0.3rem;
+  -ms-border-radius: 0.3rem;
+  -o-border-radius: 0.3rem;
 }
 .footer:hover {
   transition: all 1s;
